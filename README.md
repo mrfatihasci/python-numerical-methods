@@ -1,6 +1,59 @@
 <br><br><br>
 <p>This repository includes various Numerical Method Solutions that are implemented in Python</p>
 <br>
+<table>
+    <caption style="caption-side:top"><strong>Table of Contents</strong>
+    </caption>
+    <tr>
+        <th>1</th>
+        <td>find 32-bit representation of a number</td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td>find ieee-754-single-precision-floating-point-format with its rounding-error</td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td>find min. required # of terms to get 3 correct significant digits of pi by iteration</td>
+    </tr>
+    <tr>
+        <th>4</th>
+        <td>find the point of a beam at which max deflection occurs by using bisection method</td>
+    </tr>
+    <tr>
+        <th>5</th>
+        <td>for a given data set, fit the data with a straight line using least-square-regression</td>
+    </tr>
+    <tr>
+        <th>6</th>
+        <td>for a given data set, fit these experimental data with a power equation based on log transformation using least-square-regression</td>
+    </tr>
+    <tr>
+        <th>7</th>
+        <td>given ln8 and ln12, interpolate ln10 by using Newton's 1st Order Polynomial(linear interpolation), find its % relative error</td>
+    </tr>
+    <tr>
+        <th>8</th>
+        <td>given ln9 and ln11, interpolate ln10 by using Newton's 1st Order Polynomial(linear interpolation), find its % relative error</td>
+    </tr>
+    <tr>
+        <th>9</th>
+        <td>given ln8, ln9 and ln11, interpolate ln10 by using Newton's 2nd Order Polynomial(quadratic interpolation), find its % relative error</td>
+    </tr>
+    <tr>
+        <th>10</th>
+        <td>given ln8, ln9, ln11 and ln12, interpolate ln10 by using Newton's 3rd Order Polynomial(cubic interpolation), find its % relative error</td>
+    </tr>
+    <tr>
+        <th>11</th>
+        <td>find integral using trapezodial rule and simpson's rule(i used 1 trapezodial rule + 2 3/8 simpsons rule)</td>
+    </tr>
+     <tr>
+        <th>12</th>
+        <td>for a given function, compare backward, forward, and central difference approximation methods, with step size ∆x varying. Plot the true relative error as a function of ∆x for each method. Verify that the central difference approximation has small relative true error especially with lower ∆x values</td>
+    </tr>
+</table>
+<br>
 <hr>
 <br><br><br>
 <p>How to get users input as integer and calculate the 32-bit integer representation of it?</p>
@@ -124,7 +177,7 @@
 <img src="./images/6.png" alt="Figure">
 <br><br>
 <hr><br><br><br>
-<p>The natural logarith of 10 = ln10 and can be obtained by a single line of code, but knowing only ln 8 = 2.0794415, ln
+<p>The natural logarithm of 10 = ln10 and can be obtained by a single line of code, but knowing only ln 8 = 2.0794415, ln
     12 = 2.4849066, and using Newtons 1st Order Polynomial, how to estimate(interpolate) ln10, and what is the percent
     relative error based on the true value of ln10?</p>
 <br><br>
@@ -132,7 +185,7 @@
 <img src="./images/7.png" alt="result">
 <br><br>
 <hr><br><br><br>
-<p>The natural logarith of 10 is ln10 and can be obtained by a single line of code, but knowing only ln 9 = 2.1972246,
+<p>The natural logarithm of 10 is ln10 and can be obtained by a single line of code, but knowing only ln 9 = 2.1972246,
     ln 11 = 2.3978953, and using Newtons 1st Order Polynomial, how to estimate(interpolate) ln10, and what is the
     percent relative error based on the true value of ln10?</p>
 <br><br>
@@ -140,7 +193,7 @@
 <img src="./images/8.png" alt="result">
 <br><br>
 <hr><br><br><br>
-<p>The natural logarith of 10 = ln10 and can be obtained by a single line of code, but knowing only ln 8 = 2.0794415, ln
+<p>The natural logarithm of 10 = ln10 and can be obtained by a single line of code, but knowing only ln 8 = 2.0794415, ln
     9 = 2.1972246, ln 11 = 2.3978953, and using Newtons 2nd Order Polynomial, how to estimate(interpolate) ln10, and
     what is the percent relative error based on the true value of ln10?</p>
 <br><br>
@@ -148,7 +201,7 @@
 <img src="./images/9.png" alt="result">
 <br><br>
 <hr><br><br><br>
-<p>The natural logarith of 10 = ln10 and can be obtained by a single line of code, but knowing only ln 8 = 2.0794415, ln
+<p>The natural logarithm of 10 = ln10 and can be obtained by a single line of code, but knowing only ln 8 = 2.0794415, ln
     9 = 2.1972246, ln 11 = 2.3978953, ln 12 = 2.4849066, and using Newtons 3rd Order Polynomial, how to
     estimate(interpolate) ln10, and what is the percent relative error based on the true value of ln10?</p>
 <br><br>
@@ -156,7 +209,7 @@
 <img src="./images/10.png" alt="result">
 <br><br>
 <hr><br><br><br>
-<p>If we had a arbitrary 7 experimental data points, we could fit a 6th degree polynomial(or less) to those 7 data
+<p>If we had arbitrary 7 experimental data points, we could fit a 6th degree polynomial(or less) to those 7 data
     points, and even estimate the maximum data points of that 6th degree curve easily as we did it in the deflection of
     beam example above. All it requires is roughly 100 lines of code and we get the curve of any experimental data
     points. Wow, how powerful Python is fascinates. Let's continue for some other numerical calculations.</p>
